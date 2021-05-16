@@ -1,0 +1,25 @@
+2021-05-16 19:04:15.842  INFO 3864 --- [main] com.kou.k_mini_program.LoggerTest        : Starting LoggerTest using Java 1.8.0_131 on 俊正我 with PID 3864 (started by dell in E:\ABCjidi\AllBIgCase\k_mini_program)
+2021-05-16 19:04:15.845  INFO 3864 --- [main] com.kou.k_mini_program.LoggerTest        : No active profile set, falling back to default profiles: default
+2021-05-16 19:04:16.808  INFO 3864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-16 19:04:16.814  INFO 3864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-16 19:04:16.840  INFO 3864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2021-05-16 19:04:16.866  INFO 3864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-16 19:04:16.868  INFO 3864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-16 19:04:16.885  INFO 3864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-05-16 19:04:17.056  WARN 3864 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.kou.k_mini_program]' package. Please check your configuration.
+2021-05-16 19:04:18.051  INFO 3864 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-05-16 19:04:18.360  INFO 3864 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-16 19:04:18.444  INFO 3864 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-16 19:04:18.675  INFO 3864 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-16 19:04:19.178  INFO 3864 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-05-16 19:04:19.538  INFO 3864 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-16 19:04:19.562  INFO 3864 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-16 19:04:19.974  WARN 3864 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-16 19:04:20.349  INFO 3864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-16 19:04:21.691  INFO 3864 --- [main] com.kou.k_mini_program.LoggerTest        : Started LoggerTest in 6.513 seconds (JVM running for 8.463)
+2021-05-16 19:04:21.824  INFO 3864 --- [main] com.kou.k_mini_program.LoggerTest        : info......
+2021-05-16 19:04:21.824  INFO 3864 --- [main] com.kou.k_mini_program.LoggerTest        : name:王后
+2021-05-16 19:04:21.870  INFO 3864 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-16 19:04:21.871  INFO 3864 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-16 19:04:21.873  INFO 3864 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2021-05-16 19:04:21.883  INFO 3864 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
