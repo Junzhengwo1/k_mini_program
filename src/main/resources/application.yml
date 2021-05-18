@@ -18,18 +18,17 @@ spring:
       max-lifetime: 1800000
       connection-timeout: 30000
       connection-test-query: SELECT 1
-  jpa:
-    show-sql: true
+
   redis:
     timeout: 10000ms
     host: 127.0.0.1
     port: 6379
-    database: 1 # Ñ¡ÔñÄÄ¸ö¿â£¬Ä¬ÈÏ0¿â
+    database: 1 # Ñ¡ï¿½ï¿½ï¿½Ä¸ï¿½ï¿½â£¬Ä¬ï¿½ï¿½0ï¿½ï¿½
     lettuce:
       pool:
-        max-active: 1024 # ×î´óÁ¬½ÓÊý£¬Ä¬ÈÏ 8
-        max-wait: 10000ms # ×î´óÁ¬½Ó×èÈûµÈ´ýÊ±¼ä£¬µ¥Î»ºÁÃë£¬Ä¬ÈÏ -1
-        max-idle: 200 # ×î´ó¿ÕÏÐÁ¬½Ó£¬Ä¬ÈÏ 8
+        max-active: 1024 # ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¬ï¿½ï¿½ 8
+        max-wait: 10000ms # ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È´ï¿½Ê±ï¿½ä£¬ï¿½ï¿½Î»ï¿½ï¿½ï¿½ë£¬Ä¬ï¿½ï¿½ -1
+        max-idle: 200 # ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Ä¬ï¿½ï¿½ 8
         min-idle: 5
 
 logging:
@@ -37,4 +36,4 @@ logging:
     console: "%d - %msg%n"
   file:
     path: E:/ABCjidi/AllBIgCase/k_mini_program/log
-  level: debug
+#  level: debug
